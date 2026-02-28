@@ -3,9 +3,5 @@ data = {"city": ["Kyiv", "Lviv", "Odesa"], "sales": [1200, 950, 500]}
 df = pd.DataFrame(data)
 print("Продажі по містах:")
 print(df)
-average_sales = df [ "sales" ] .mean ()
-print ( "Среднее значение:" , average_sales)
-print ( "Это средний уровень продаж по трем городам" )
-
-
+print("Середнє значення:", df["sales"].mean())
 
